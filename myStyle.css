@@ -1,0 +1,23 @@
+body {        
+    margin: 0;
+    padding: 0;    
+    background-color: white;
+    width: 750px;    
+    width: 100%; 
+    text-align: center;
+}
+
+#centerContainer {    
+    width: 500px;
+    text-align: left; 
+    margin: 0px auto; 
+}
+
+#alert{
+    color: red
+}
+
+h1 {  
+    text-align: left;
+    color: black;    
+}
