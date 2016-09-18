@@ -6,21 +6,52 @@ body {
 
 #wrap {
     max-width: 800px;
-	margin:auto;   
+	margin:auto; 
+	text-align: left;
 	/*border-color: red;
 	border-style: solid;   */
-}
-
-#content {
-	text-align: left;
-	
-	/* border-style: solid;
-    border-color: green; */
 }
 
 header h1 {
 	margin-bottom: 0;	
 }
+
+figure {
+    width: 100%;
+    height: auto;	
+    margin: 0 auto;	
+	display: inline-block;	
+	
+}
+
+figcaption {
+	text-align: center;
+	font-variant: small-caps;
+}
+
+img:hover {
+    transform: scale(3);
+    -ms-transform: scale(3);
+    -webkit-transform: scale(3);
+    -moz-transform: scale(3);
+    -o-transform: scale(3);
+	
+}
+
+img {
+    transition: transform 0.2s;
+    -webkit-transition: -webkit-transform 0.2s;
+    -moz-transition: -moz-transform 0.2s;
+    -o-transition: -o-transform 0.2s;
+	
+	display: block;
+    margin: 0 auto;
+	
+	max-height: 100px;
+	width: auto;	
+}
+
+
 
 footer {
 	text-align: center;
@@ -39,24 +70,20 @@ footer ul li {
 	font-size: 2em
 }
 
+footer a{	
+	text-decoration: none;
+}
+
+
 /* a:hover must come after link and visited, active comes after hover */
-a:link    {
+a:link, a:visited  {
 	color:black; 
-	text-decoration:none;
 }
-a:visited {
-	color:black;
-	text-decoration:none;
-}
+
 a:hover, a:active {
 	color: red;		
 }
 
-a p {
-	padding: 0px;
-	margin: 0px;
-	text-decoration: underline
-}
 
 #alert{
     color: red
