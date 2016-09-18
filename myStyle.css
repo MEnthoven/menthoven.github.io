@@ -1,23 +1,63 @@
-body {        
-    margin: 0;
-    padding: 0;    
-    background-color: white;
-    width: 750px;    
-    width: 100%; 
-    text-align: center;
+/*Start with the font you want, and end with a generic family,*/
+body { 
+    background-color: white; 
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
-#centerContainer {    
-    width: 500px;
-    text-align: left; 
-    margin: 0px auto; 
+#wrap {
+    max-width: 800px;
+	margin:auto;   
+	/*border-color: red;
+	border-style: solid;   */
+}
+
+#content {
+	text-align: left;
+	
+	/* border-style: solid;
+    border-color: green; */
+}
+
+header h1 {
+	margin-bottom: 0;	
+}
+
+footer {
+	text-align: center;
+}
+
+footer ul{
+	/*border-style: solid;
+    border-color: black;	*/	
+	margin: 0;
+	padding: 0;	
+}
+
+footer ul li {
+    display: inline;
+	margin: 0px 10px;
+	font-size: 2em
+}
+
+/* a:hover must come after link and visited, active comes after hover */
+a:link    {
+	color:black; 
+	text-decoration:none;
+}
+a:visited {
+	color:black;
+	text-decoration:none;
+}
+a:hover, a:active {
+	color: red;		
+}
+
+a p {
+	padding: 0px;
+	margin: 0px;
+	text-decoration: underline
 }
 
 #alert{
     color: red
-}
-
-h1 {  
-    text-align: left;
-    color: black;    
 }
